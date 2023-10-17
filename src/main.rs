@@ -8,7 +8,7 @@ fn main() {
             Ok(stream) => {
                 println!("hello 127")
             },
-            Err(e) => panic!()
+            Err(e) => panic!(e)
         }
     }
 }
